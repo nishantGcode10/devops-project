@@ -82,4 +82,4 @@ plt.xlim((2.5,8.5))
 
 plt.tight_layout()
 plt.savefig("residuals.png",dpi=120) 
-
+print("completed")
