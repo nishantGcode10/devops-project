@@ -30,7 +30,8 @@ regr.fit(X_train, y_train)
 train_score = regr.score(X_train, y_train) * 100
 # Report test set score
 test_score = regr.score(X_test, y_test) * 100
-
+print(test_score)
+print(train_score)
 # Write scores to a file
 with open("metrics.txt", 'w') as outfile:
         outfile.write("Training variance explained: %2.1f%%\n" % train_score)
